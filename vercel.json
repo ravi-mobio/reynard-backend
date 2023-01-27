@@ -2,5 +2,5 @@
   "version": 2,
   "name": "reynard backend",
   "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/app.js" }]
+  "routes": [{ "app": "/(.*)", "dest": "/app.js" }]
 }
