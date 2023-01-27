@@ -1,0 +1,35 @@
+module.exports = {
+  /* common */
+  ONLY_ADMIN_ACCESS_TO_RESOURCES: `Oopps! You don't have access to use this resource. Please contact admin`,
+  USER_CREATE: "User has been created successfully",
+  CREATE_PROJECT: "Project has been created successfully",
+  ALL_PROJECT: "Project has been retireved successfully",
+  CREATE_SITE: "Site has been created successfully",
+  ALL_SITE: "Site has been retireved successfully",
+  CREATE_LOCATION: "Location has been created successfully",
+  CREATE_SAVING_RULE: "Saving rule has been created successfully",
+  ALL_SAVING_RULE: "Saving rule has been retireved successfully",
+  USER_LOGIN: "Login successfully.",
+  SOMETHING_WENT_WRONG: `Something went wrong! Please contact admin`,
+  EMAIL_ALREADY_EXIST: "Email Id already exists",
+  USER_NOT_REGISTERED: "User not registered.",
+  UNAUTHORIZED_ROLE_REQUESTED: "NOT AUTHORIZED",
+  PASSWORD_LINK_EXPIRED: "Reset password link is expired.",
+  NO_PASSWORD_FIELD_EXISTS:
+    "Please contact admin to send reset password link via email",
+  PASSWORD_INCORRECT: "Please enter correct password to login.",
+  SEND_AUTHENTICATION_TOKEN: "Please send authentication token.",
+  LOGOUT_SUCCESS: "Logout successfully.",
+  /**Safety Cards */
+  CREATE_SAFETY_CARD: "Safety Card has been created successfully",
+  SAFETY_CARD_UPDATE: "Safety Card has been updated successfully",
+  ALL_SAFETY_CARD_LIST: "Safety Card list was retireved successfully",
+  SAFETY_CARD_BY_ID: "Safety Card was retrieved by id successfully",
+  DELETED_SAFETY_CARD: "Safety Card deleted successfully",
+  NO_SAFETY_CARD: "Empty Safety Card",
+  /**Fields */
+  NO_FIELDS: "No Field Found",
+  DELETED_FIELDS: "Field deleted successfully",
+  CREATED_FIELDS: "Field created successfully",
+  DYNAMIC_FIELDS: "Dynamic fields",
+};
